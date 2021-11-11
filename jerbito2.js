@@ -29,10 +29,10 @@ const alerta2 = document.querySelector('.mostrarCartelError2'); //No se registrÃ
 }
 
 const registroExitoso = () => {
-    if ((inputCheck.checked = true) && (email != '') && (password != '') && (repeatPassword != '') ) {
+    if ((inputCheck.checked === true) && (email != '') && (password != '') && (repeatPassword != '') ) {
         exito.classList.remove('cartelOculto');
         validar.classList.add('cartelOculto');
-    } else if (inputCheck.checked = false || email === '' || password === '' || repeatPassword === '') {
+    } else if (inputCheck.checked === false || email === '' || password === '' || repeatPassword === '') {
         alerta2.classList.remove('cartelOculto');
         exito.classList.add('cartelOculto');
         validar.classList.add('cartelOculto');
