@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="jerbito2.css" rel="stylesheet">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="contenedor-form">
+        <form action="">
+            <div class="contenedor">
+            <div>
+                <label>Email</label>
+                <input type="email" name="Email" id="input-email">
+            </div>
+        <div>
+            <label>Contraseña</label>
+            <input type="password" name="Password" id="input-pass">
+        </div>
+        <div>
+            <label>Repetir contraseña</label>
+        <input type="password" name="Repeat password" id="input-repeat-pass">
+        </div>
+        <div class="check">
+            <input type="checkbox" name="Acepto términos y condiciones" id="input-check">
+            <label>Acepto los términos y condiciones</label>    
+        </div>
+        <div>
+            <button type="submit" id="input-submit" class="botonRegistrarse">Registrarse</button>
+        </div>
+        <div class= "formatoCartel mostrarCartelOk cartelOculto">
+            <p>Las contraseñas coinciden</p>
+        </div>
+        <div class="formatoCartel mostrarCartelError cartelOculto">
+            <p>No puede registrarse: Las contraseñas no coinciden!</p>
+        </div>
+        <div class="mostrarCartelExito cartelOculto">
+            <p>¡Se ha registrado exitosamente!</p>
+        </div>
+        <div class="mostrarCartelError2 cartelOculto">No puede registrarse: Faltan completar campos</div>
+    </div>
+        </form>
+    </div>
+    <script src="jerbito2.js"> 
+    </script>
+    </body>
+</html>
+
+
+
+<!-- // # Ejercicio
+LISTO - Crear un formulario con email, password, repeatPassword y un checkbox de aceptar terminos y condiciones.
+LISTO - Debe hacer una validacion de que ningun campo este vacio y que las contrasenas coincidan.
+// - Si la validacion falla, se debe impedir que el usuario se registre.
+LISTO - Si la validacion es correcta, mostrar un mensaje de exito.
+// - Los mensajes de fallo o exito no pueden verse al mismo tiempo.
+LISTO - Al hacer click en registrarse, no se debe recargar la pagina. -->

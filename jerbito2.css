@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e9eb;
+    padding: 200px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ef6461;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-form {
+    border: 2px solid #ef6461;
+    border-radius: 20px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor {
+    width: 500px;
+    height: 600px;
+    background-color: #e0dfd5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.formatoCartel {
+    text-align: center;
+    position: absolute;
+    top: 720px;
+}
+
+.mostrarCartelOk {
+    color: green;
+    font-weight: bold;
+}
+
+.cartelOculto {
+    display: none;
+}
+
+.mostrarCartelError {
+    color: red;
+    font-weight: bold;
+}
+
+.mostrarCartelExito {
+    color: green;
+    font-weight: bold;
+    position: absolute;
+    top: 720px;
+}
+
+.mostrarCartelError2 {
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 720px;
+}
+
+.check {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type=email], input[type=password] {
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: #e8e9eb;
+    border-radius: 15px;
+    border-style: none; 
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+/* input[type=email]:active, input[type=password]:active {
+    border-color: #e8e9eb;
+    border-style: none;
+} */
+
+
+.botonRegistrarse {
+    background-color: #ef6461;
+    color: #e8e9eb;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-style: none;
+    margin: 20px;
+}
+
+.botonRegistrarse:hover {
+    background-color: #f59c9a;
+    cursor: hand;
+}
+
+.botonRegistrarse:active {
+    background-color: #ad1613;
+}
