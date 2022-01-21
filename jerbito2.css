@@ -40,39 +40,40 @@ form div {
     padding-top: 15px;
 }
 
-.formatoCartel {
+.formato-cartel {
     text-align: center;
     position: absolute;
     top: 720px;
+    font-weight: bold;
 }
 
-.mostrarCartelOk {
+.mostrar-cartel-ok {
     color: green;
     font-weight: bold;
 }
 
-.cartelOculto {
+.cartel-oculto {
     display: none;
 }
 
-.mostrarCartelError {
+.mostrar-cartel-error {
     color: red;
     font-weight: bold;
 }
 
-.mostrarCartelExito {
+/* .mostrar-cartel-exito {
     color: green;
     font-weight: bold;
     position: absolute;
     top: 720px;
-}
+} 
 
-.mostrarCartelError2 {
+.mostrar-cartel-error2 {
     color: red;
     font-weight: bold;
     position: absolute;
     top: 720px;
-}
+}*/
 
 .check {
     flex-direction: row;
@@ -98,7 +99,7 @@ input[type=checkbox] {
 } */
 
 
-.botonRegistrarse {
+.boton-registrarse {
     background-color: #ef6461;
     color: #e8e9eb;
     padding: 10px 15px;
@@ -107,11 +108,19 @@ input[type=checkbox] {
     margin: 20px;
 }
 
-.botonRegistrarse:hover {
+.boton-registrarse:hover {
     background-color: #f59c9a;
     cursor: hand;
 }
 
-.botonRegistrarse:active {
+.boton-registrarse:active {
     background-color: #ad1613;
+}
+
+:disabled {
+    background-color: #f59c9a;
+}
+
+:disabled:hover {
+    background-color: #f59c9a;
 }
